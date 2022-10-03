@@ -1,6 +1,10 @@
+// creando vartiables globales
+
 const color1 = document.querySelector('#color1')
 const color2 = document.querySelector('#color2')
 const color3 = document.querySelector('#color3')
+
+// seleccionando los div
 
 const div1 = document.querySelector('#div1')
 const div2 = document.querySelector('#div2')
@@ -40,6 +44,8 @@ document.addEventListener('keydown', (event) => {
     }
     
 })
+
+// funcion para limpiar selector
 
 function limpiar() {
     text1.textContent = ''
